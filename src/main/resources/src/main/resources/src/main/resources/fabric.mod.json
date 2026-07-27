@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "pearlboost",
+  "version": "1.0.0",
+  "name": "Pearl Boost Combo",
+  "description": "Pearl and Wind Charge combo for PojavLauncher",
+  "authors": ["Ziad"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.ziad.pearlboost.PearlBoostClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.21",
+    "java": ">=21"
+  }
+}
